@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>This custom setting is utilized to bypass custom business logic for specific profiles or users.</description>
+    <enableFeeds>false</enableFeeds>
+    <label>DataAdmin</label>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>TurnOffProcessBuilder__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check, to turn off all custom process builders; Uncheck to leave on all custom process builders</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check, to turn off all custom process builders; Uncheck to leave on all custom process builders</inlineHelpText>
+        <label>TurnOffProcessBuilder?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TurnOffTrigger__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check, to turn off all custom triggers; Uncheck to leave on all custom triggers</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check, to turn off all custom triggers; Uncheck to leave on all custom triggers</inlineHelpText>
+        <label>TurnOffTrigger?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TurnOffValidationRules__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check, to turn off all custom validation rules; Uncheck to leave on all custom validation rules</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check, to turn off all custom validation rules; Uncheck to leave on all custom validation rules</inlineHelpText>
+        <label>TurnOffValidationRules?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TurnOffWorkflow__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check, to turn off all custom workflow rules; Uncheck to leave on all custom workflow rules</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check, to turn off all custom workflow rules; Uncheck to leave on all custom workflow rules</inlineHelpText>
+        <label>TurnOffWorkflow?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>

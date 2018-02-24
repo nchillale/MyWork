@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Error_TriggerInvalidObjectException</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error_TriggerInvalidObjectException</shortDescription>
+        <value>No Trigger dispatcher registered for Object Type: {0}</value>
+    </labels>
+    <labels>
+        <fullName>Error_UniqueKeyDuplicateError</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error_UniqueKeyDuplicateError</shortDescription>
+        <value>Duplicate value found: Unique_Key__c duplicates value on split team records</value>
+    </labels>
+</CustomLabels>
