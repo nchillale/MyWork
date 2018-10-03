@@ -17,7 +17,8 @@ public class Constants {
     //SOBJECT NAMES
     //**************************************************       
     //SObjectType names
-    public static final String ST_ACCOUNT = 'Account';
+    public static final String ST_ACCOUNT = 'Account';      
+    public static final String ST_EMAILTEMPLATE = 'EmailTemplate';
     
     //Eror Value
     public static final String ERROR_DUPLICATE_VALUE = 'duplicate value';
