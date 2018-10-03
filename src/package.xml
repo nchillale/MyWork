@@ -18,10 +18,6 @@
     <members>UtilityClass</members>
   </types>
   <types>
-    <name>CustomLabels</name>
-    <members>CustomLabels</members>
-  </types>
-  <types>
     <name>CustomLabel</name>
     <members>*</members>
   </types>
